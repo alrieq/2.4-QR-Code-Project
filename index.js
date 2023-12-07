@@ -1,7 +1,6 @@
 import inquirer from 'inquirer';
 import qr from 'qr-image'
 import fs from 'fs'
-import { writeFile } from 'fs/promises';
 inquirer
   .prompt([
     /* Pass your questions in here */
